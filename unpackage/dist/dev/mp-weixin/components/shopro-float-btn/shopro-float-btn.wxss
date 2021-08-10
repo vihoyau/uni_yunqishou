@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.shopro-float-btn {
+  position: fixed;
+  bottom: calc(0px + 100rpx);
+  right: 30rpx;
+  z-index: 10002;
+}
+.shopro-float-btn .float--active {
+  position: absolute;
+  bottom: 80rpx;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  z-index: 10010;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.shopro-float-btn .float-list-box {
+  position: absolute;
+  z-index: 10010;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  opacity: 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.shopro-float-btn .btn-item {
+  margin-bottom: 20rpx;
+}
+.shopro-float-btn .btn-item .btn-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+.shopro-float-btn .btn-item .btn-name {
+  font-size: 20rpx;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+.shopro-float-btn .wechat-btn {
+  box-shadow: 0px 0px 20px 4px rgba(199, 199, 199, 0.22);
+  border-radius: 50%;
+  width: 80rpx;
+  height: 80rpx;
+}
+.shopro-float-btn .wechat-btn .wechat_img {
+  width: 80rpx;
+  height: 80rpx;
+}
+.img-box {
+  position: relative;
+  width: 610rpx;
+}
+.img-box .modal-img {
+  width: 100%;
+  will-change: transform;
+  height: 830rpx;
+}
+

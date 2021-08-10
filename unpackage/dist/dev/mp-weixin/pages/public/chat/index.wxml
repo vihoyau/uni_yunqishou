@@ -1,0 +1,1 @@
+<block wx:if="{{showChat}}"><view class="chat-template-box"><block wx:if="{{isShoproChat}}"><chat vue-id="6c6fb4ee-1" bind:__l="__l"></chat></block><block wx:if="{{!isShoproChat}}"><wm vue-id="6c6fb4ee-2" options="{{kefuOptions}}" bind:__l="__l"></wm></block></view></block>

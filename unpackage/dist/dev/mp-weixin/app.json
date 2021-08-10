@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/category",
+    "pages/index/cart",
+    "pages/index/user",
+    "pages/index/view",
+    "pages/order/confirm"
+  ],
+
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "shopro-plus",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#a8700d",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/category",
+        "text": "抢单大厅",
+        "iconPath": "static/images/tabbar/tabbar_category.png",
+        "selectedIconPath": "/static/images/tabbar/tabbar_category1.png"
+      },
+      {
+        "pagePath": "pages/order/confirm",
+        "text": "申请订单",
+        "iconPath": "static/images/tabbar/tabbar_cart.png",
+        "selectedIconPath": "/static/images/tabbar/tabbar_cart1.png"
+      },
+      {
+        "pagePath": "pages/index/user",
+        "text": "我的",
+        "iconPath": "static/images/tabbar/tabbar_personal.png",
+        "selectedIconPath": "/static/images/tabbar/tabbar_personal1.png"
+      }
+    ]
+  },
+  "preloadRule": {
+    
+  },
+  "plugins": {},
+  "permission": {
+    "scope.userLocation": {
+      "desc": "计算附近商家位置"
+    }
+  },
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "页面不存在",
+  "usingComponents": {
+    "shopro-empty": "/components/shopro-empty/shopro-empty"
+  }
+}

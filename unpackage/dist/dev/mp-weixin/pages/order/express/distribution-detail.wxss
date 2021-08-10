@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.hideCanvasView {
+  position: relative;
+}
+.hideCanvasView .hideCanvas {
+  position: fixed;
+  top: -99999rpx;
+  left: -99999rpx;
+  z-index: -99999;
+}
+.qr-code-modal {
+  width: 610rpx;
+  border-radius: 20rpx;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.qr-code-modal .qr-code-img {
+  margin: 100rpx;
+  width: 400rpx;
+  height: 400rpx;
+}
+.qr-code-modal .qr-code-text {
+  color: #999;
+  font-size: 28rpx;
+}
+.qr-code-modal .hide-qrcode {
+  width: 492rpx;
+  line-height: 70rpx;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  box-shadow: 0px 7rpx 6rpx 0px rgba(229, 138, 0, 0.22);
+  border-radius: 35rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: white;
+  margin: 30rpx;
+}
+.content_box {
+  padding: 20rpx;
+}
+.no-radius {
+  border-radius: 0 !important;
+}
+.card-wrap {
+  background-color: #fff;
+  padding: 20rpx 20rpx 0;
+  border-radius: 20rpx;
+}
+.order-card-box {
+  height: 200rpx;
+  border-bottom: 2rpx solid rgba(238, 238, 238, 0.6);
+}
+.order-card-box .order-sku {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+  width: 450rpx;
+  margin-bottom: 20rpx;
+}
+.order-card-box .order-sku .order-num {
+  margin-right: 10rpx;
+}
+.order-card-box .card-price-box .status-btn {
+  height: 32rpx;
+  border: 1rpx solid #cfa972;
+  border-radius: 15rpx;
+  font-size: 20rpx;
+  font-weight: 400;
+  color: #a8700d;
+  padding: 0 10rpx;
+  margin-left: 20rpx;
+  background: rgba(233, 183, 102, 0.16);
+}
+.order-card-box .card-price-box .order-price {
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #333333;
+}
+.qr-code--img {
+  width: 200rpx;
+  height: 200rpx;
+}
+.detail-item {
+  background: white;
+  border-radius: 20rpx;
+  width: 100%;
+}
+.detail-item .item-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333333;
+  height: 60rpx;
+}
+.detail-item .item-content {
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #333333;
+  line-height: 50rpx;
+}
+.detail-item .item-status {
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #b38436;
+}
+.detail-item .item-tip {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+.detail-item .check-code {
+  background: none;
+  border-radius: 25rpx;
+  border: 1rpx solid #b38436;
+  padding: 0;
+  width: 100rpx;
+  line-height: 50rpx;
+  font-size: 28rpx;
+  color: #b38436;
+}
+.detail-item .location-box {
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  position: relative;
+}
+.detail-item .location-box::before {
+  content: '';
+  width: 2rpx;
+  height: 94rpx;
+  background: #eeeeee;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+}
+.detail-item .location-box .location-icon {
+  color: #4fbbff;
+  margin-bottom: 20rpx;
+}
+.detail-item .location-box .location-text {
+  color: #999;
+  font-size: 26rpx;
+}
+.service-btn {
+  padding: 0;
+  width: 710rpx;
+  line-height: 80rpx;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  box-shadow: 0px 7rpx 6rpx 0px rgba(229, 138, 0, 0.22);
+  border-radius: 40rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: white;
+}
+.service-btn .cuIcon-dianhua {
+  color: #fff;
+  font-size: 40rpx;
+  margin-right: 10rpx;
+}
+

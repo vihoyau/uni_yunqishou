@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的钱包",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-calendar": "/uview-ui/components/u-calendar/u-calendar"
+  }
+}

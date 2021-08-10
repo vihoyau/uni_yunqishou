@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "sh-category-tabs-u-waterfall-left": "/pages/index/components/sh-category-tabs-u-waterfall-left",
+    "sh-category-tabs-u-waterfall-right": "/pages/index/components/sh-category-tabs-u-waterfall-right",
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "shopro-goods-card": "/components/shopro-goods-card/shopro-goods-card",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "sh-goods-card": "/pages/index/components/sh-goods-card"
+  }
+}

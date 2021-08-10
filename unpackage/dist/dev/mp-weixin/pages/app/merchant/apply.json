@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "门店入驻",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

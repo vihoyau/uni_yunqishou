@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.money-box {
+  background: #fff;
+  height: 250rpx;
+  margin-bottom: 20rpx;
+  padding-top: 30rpx;
+}
+.money-box .time {
+  font-size: 28rpx;
+  color: #c4c4c4;
+}
+.money-box .money {
+  color: #e1212b;
+  font-size: 60rpx;
+  margin-top: 60rpx;
+}
+.money-box .money::before {
+  content: '￥';
+  font-size: 46rpx;
+}
+.pay-box .pay-item {
+  height: 90rpx;
+  padding: 0 30rpx;
+  font-size: 26rpx;
+  background: #fff;
+  width: 750rpx;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.pay-box .pay-item:last-child {
+  border-bottom: none;
+}
+.pay-box .pay-item .pay-img {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 25rpx;
+}
+.pay-btn {
+  width: 690rpx;
+  line-height: 80rpx;
+  background: -webkit-linear-gradient(left, #f0c785, #f6d69d);
+  background: linear-gradient(90deg, #f0c785, #f6d69d);
+  border-radius: 40rpx;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 100rpx auto 0;
+}
+

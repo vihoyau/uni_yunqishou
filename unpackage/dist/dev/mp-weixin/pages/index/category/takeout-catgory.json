@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "shopro-sku": "/components/shopro-sku/shopro-sku"
+  }
+}

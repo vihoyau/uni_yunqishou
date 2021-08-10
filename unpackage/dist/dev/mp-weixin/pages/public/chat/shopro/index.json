@@ -1,0 +1,12 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal"
+  }
+}

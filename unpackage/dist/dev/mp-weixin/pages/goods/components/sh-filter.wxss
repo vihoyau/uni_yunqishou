@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.sel-box {
+  position: absolute;
+  width: 750rpx;
+  height: 140rpx;
+  background: #f6f6f6;
+  border-radius: 0px 0px 20rpx 20rpx;
+  z-index: 999;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -138rpx;
+  -webkit-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
+}
+.sel-box .sel-item {
+  color: #333;
+  padding: 20rpx 40rpx 0;
+  font-size: 24rpx;
+  font-weight: 500;
+}
+.sel-box .sel-active {
+  color: #d5a65a;
+  font-size: 26rpx;
+  font-weight: 600;
+}
+.filter-box {
+  width: 750rpx;
+}
+.navbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 750rpx;
+  height: 95rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #e6e6e6;
+  position: relative;
+  z-index: 999;
+}
+.navbar .nav-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100%;
+  font-size: 30rpx;
+  position: relative;
+}
+.navbar .nav-item .filter-title {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 600;
+}
+.navbar .nav-item .line {
+  width: 110rpx;
+  height: 4rpx;
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+.navbar .nav-item .line-active {
+  background: #d5a65a;
+}
+.navbar .nav-item .p-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.current {
+  color: #d5a65a;
+}
+

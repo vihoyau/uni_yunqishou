@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.adv-box .type1 .type1-img {
+  width: 350rpx;
+  border-radius: 10rpx;
+  height: 220rpx;
+}
+.adv-box .type2 .type2-img1 {
+  height: 350rpx;
+  width: 350rpx;
+  border-radius: 10rpx;
+}
+.adv-box .type2 .type2-box {
+  height: 350rpx;
+  width: 350rpx;
+  border-radius: 10rpx;
+}
+.adv-box .type2 .type2-box .type2-img2 {
+  height: 170rpx;
+  width: 350rpx;
+  border-radius: 10rpx;
+}
+.adv-box .type3 .type3-box {
+  height: 350rpx;
+  width: 350rpx;
+  border-radius: 10rpx;
+}
+.adv-box .type3 .type3-box .type3-img1 {
+  height: 170rpx;
+  width: 350rpx;
+  border-radius: 10rpx;
+}
+.adv-box .type3 .type3-img2 {
+  height: 350rpx;
+  width: 350rpx;
+  border-radius: 10rpx;
+}
+.adv-box .type4 .type4-box .type4-img1 {
+  height: 170rpx;
+  width: 350rpx;
+  border-radius: 10rpx;
+}
+.adv-box .type4 .type4-img2 {
+  width: 710rpx;
+  border-radius: 10rpx;
+  height: 220rpx;
+}
+.adv-box .type5 .type5-img1 {
+  width: 710rpx;
+  border-radius: 10rpx;
+  height: 220rpx;
+}
+.adv-box .type5 .type5-box .type5-img2 {
+  height: 170rpx;
+  width: 350rpx;
+  border-radius: 10rpx;
+}
+.adv-box .type6 .type6-box1 .type6-img1 {
+  height: 170rpx;
+  width: 350rpx;
+  border-radius: 10rpx;
+}
+.adv-box .type6 .type6-box2 .type6-img2 {
+  height: 170rpx;
+  width: 230rpx;
+  border-radius: 10rpx;
+}
+

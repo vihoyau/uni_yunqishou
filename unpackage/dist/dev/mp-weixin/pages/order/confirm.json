@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-collapse": "/uview-ui/components/u-collapse/u-collapse",
+    "u-collapse-item": "/uview-ui/components/u-collapse-item/u-collapse-item",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "sh-select-coupon": "/pages/order/components/sh-select-coupon"
+  }
+}

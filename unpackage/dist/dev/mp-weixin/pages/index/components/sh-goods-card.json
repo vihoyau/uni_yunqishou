@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box",
+    "shopro-sku": "/components/shopro-sku/shopro-sku"
+  }
+}

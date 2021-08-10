@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "分享记录",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-switch": "/uview-ui/components/u-switch/u-switch",
+    "u-select": "/uview-ui/components/u-select/u-select"
+  }
+}

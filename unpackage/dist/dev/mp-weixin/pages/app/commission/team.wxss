@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.referrer-box {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 10rpx;
+}
+.referrer-box .referrer-avatar {
+  width: 34rpx;
+  height: 34rpx;
+  border-radius: 50%;
+}
+.refresh-btn {
+  width: 100%;
+  line-height: 100rpx;
+  background: #ffffff;
+  border-radius: 25rpx;
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #999999;
+  white-space: nowrap;
+}
+.refresh-btn .cuIcon-refresh {
+  color: #dbdbdb;
+  margin-right: 12rpx;
+  font-size: 32rpx;
+}
+.refresh-active {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+.head_box {
+  background: url("http://file.shopro.top/imgs/commission/card_bg.png") no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 30rpx;
+}
+.team-data-box {
+  margin: 30rpx 20rpx 0;
+}
+.team-data-box .data-card {
+  width: 340rpx;
+  background: #ffffff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+.team-data-box .data-card .item-title {
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #999999;
+  line-height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.team-data-box .data-card .total-item {
+  margin-bottom: 20rpx;
+}
+.team-data-box .data-card .total-num {
+  font-size: 38rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.team-data-box .data-card .category-num {
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.team-box .team-list .team-children {
+  margin-left: 80rpx;
+  margin-right: 20rpx;
+  height: 132rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.team-box .team-list .team-children .head-img {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-right: 38rpx;
+}
+.team-box .team-list .team-children .head-info .head-time {
+  font-size: 22rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.team-box .team-list .team-children .head-info .name-box {
+  margin-bottom: 12rpx;
+}
+.team-box .team-list .team-children .head-info .name-box .name-text {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #666;
+}
+.team-box .team-list .team-children .head-info .name-box .tag-box {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 21rpx;
+  line-height: 30rpx;
+  padding-right: 10rpx;
+  margin-left: 10rpx;
+}
+.team-box .team-list .team-children .head-info .name-box .tag-box .tag-img {
+  width: 34rpx;
+  height: 34rpx;
+  margin-right: 6rpx;
+  border-radius: 50%;
+}
+.team-box .team-list .team-children .head-info .name-box .tag-box .tag-title {
+  font-size: 18rpx;
+  font-weight: 500;
+  color: white;
+  line-height: 20rpx;
+}
+

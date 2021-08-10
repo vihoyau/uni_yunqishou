@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.head_box {
+  height: 70rpx;
+  padding: 0 30rpx;
+}
+.head_box .count-box {
+  font-size: 26rpx;
+  color: #999;
+}
+.head_box .count-box .all-num {
+  color: #a8700d;
+}
+.head_box .edit-btn {
+  background: none;
+  font-size: 26rpx;
+  color: #a8700d;
+  margin: 0;
+  padding: 20rpx;
+}
+.collect-list {
+  padding: 30rpx 20rpx;
+  background: #fff;
+  width: 750rpx;
+  margin-bottom: 20rpx;
+}
+.collect-list .goods-radio {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  margin-right: 20rpx;
+}
+.tools-box {
+  height: 100rpx;
+  width: 750rpx;
+  padding: 0 20rpx;
+  background: #fff;
+}
+.tools-box .check-all {
+  font-size: 26rpx;
+}
+.tools-box .check-all .check-all-radio {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+.tools-box .close-btn {
+  width: 200rpx;
+  line-height: 70rpx;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  box-shadow: 0px 7rpx 6rpx 0px rgba(229, 138, 0, 0.22);
+  border-radius: 35rpx;
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+

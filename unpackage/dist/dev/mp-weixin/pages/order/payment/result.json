@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "支付结果",
+  "usingComponents": {
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal",
+    "u-modal": "/uview-ui/components/u-modal/u-modal"
+  }
+}

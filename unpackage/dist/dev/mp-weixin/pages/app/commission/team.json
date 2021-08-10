@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "我的团队",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "sh-collapse-item": "/pages/app/components/sh-collapse-item"
+  }
+}

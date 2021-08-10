@@ -1,0 +1,1 @@
+<block wx:if="{{richText.content}}"><view class="sh-richtext-box u-m-b-10"><u-parse vue-id="124a9930-1" html="{{richText.content}}" bind:__l="__l"></u-parse></view></block>

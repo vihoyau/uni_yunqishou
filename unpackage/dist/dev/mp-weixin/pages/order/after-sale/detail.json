@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "售后详情",
+  "usingComponents": {
+    "u-steps": "/uview-ui/components/u-steps/u-steps",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "shopro-mini-card": "/components/shopro-mini-card/shopro-mini-card"
+  }
+}

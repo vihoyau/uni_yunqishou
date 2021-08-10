@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "分销中心",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "shopro-share": "/components/shopro-share/shopro-share",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress"
+  }
+}

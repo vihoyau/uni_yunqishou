@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.rankings-wrap {
+  background: url("http://file.shopro.top/imgs/commission/rankings_bg.png") no-repeat;
+  background-size: 100% auto;
+  height: 100%;
+  overflow: hidden;
+}
+.rankings-list-box {
+  background-color: #fff;
+  border-radius: 20rpx 20rpx 0px 0px;
+  width: 690rpx;
+  height: 100%;
+  margin: 60rpx auto 0;
+}
+.rankings-list-box .scroll-box {
+  height: 100%;
+}
+.rankings-list-box .ranking-list {
+  height: 140rpx;
+  padding: 0 30rpx;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+.rankings-list-box .ranking-list .list-left .tag-box {
+  width: 50rpx;
+  font-size: 36rpx;
+  font-weight: 500;
+  color: #beb4b3;
+  margin-right: 20rpx;
+}
+.rankings-list-box .ranking-list .list-left .tag-box .tag-icon {
+  width: 40rpx;
+  height: 60rpx;
+}
+.rankings-list-box .ranking-list .list-left .user-avatar {
+  width: 66rpx;
+  height: 66rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+}
+.rankings-list-box .ranking-list .list-left .user-info .name {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.rankings-list-box .ranking-list .list-left .user-info .date {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.rankings-list-box .ranking-list .list-right .num {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #5e4ddf;
+}
+.rankings-list-box .ranking-list .list-right .des {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #a09a98;
+}
+

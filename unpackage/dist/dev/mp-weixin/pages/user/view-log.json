@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "浏览足迹",
+  "usingComponents": {
+    "u-checkbox-group": "/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "shopro-mini-card": "/components/shopro-mini-card/shopro-mini-card",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal"
+  }
+}

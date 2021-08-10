@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "优惠券详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "shopro-mini-card": "/components/shopro-mini-card/shopro-mini-card",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal"
+  }
+}

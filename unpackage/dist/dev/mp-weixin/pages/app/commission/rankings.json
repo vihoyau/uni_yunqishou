@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "分销排行",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

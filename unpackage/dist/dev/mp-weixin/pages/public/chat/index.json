@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "客服",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "chat": "/pages/public/chat/shopro/index",
+    "wm": "/pages/public/chat/wm/index"
+  }
+}

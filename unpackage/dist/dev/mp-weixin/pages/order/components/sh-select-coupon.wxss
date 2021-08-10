@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.coupon-item.data-v-723ce28e {
+  border-top: 1rpx solid rgba(223, 223, 223, 0.5);
+  height: 100rpx;
+  background: #fff;
+  padding: 0 25rpx;
+}
+.coupon-item .item-title.data-v-723ce28e {
+  font-size: 28rpx;
+  margin-right: 20rpx;
+}
+.coupon-item .price.data-v-723ce28e {
+  font-size: 26rpx;
+  color: #ff0000;
+  margin-right: 20rpx;
+}
+.coupon-item .sel-coupon.data-v-723ce28e {
+  font-size: 26rpx;
+  color: #c4c4c4;
+  margin-right: 20rpx;
+}
+.modal-box.data-v-723ce28e {
+  width: 750rpx;
+  height: 700rpx;
+  background: #fff;
+  padding: 30rpx;
+}
+.modal-box .serve-btn.data-v-723ce28e {
+  width: 690rpx;
+  line-height: 80rpx;
+  background: -webkit-linear-gradient(left, #f0c785, #f6d69d);
+  background: linear-gradient(90deg, #f0c785, #f6d69d);
+  border-radius: 40rpx;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 40rpx;
+}
+.modal-box .radio-item.data-v-723ce28e {
+  width: 690rpx;
+  margin-bottom: 20rpx;
+}
+.modal-box .modal-head.data-v-723ce28e {
+  margin-bottom: 30rpx;
+}
+.modal-box .modal-head .head-title.data-v-723ce28e {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+

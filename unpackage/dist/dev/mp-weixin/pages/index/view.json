@@ -1,0 +1,25 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-no-network": "/uview-ui/components/u-no-network/u-no-network",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal",
+    "sh-banner": "/pages/index/components/sh-banner",
+    "sh-grid-swiper": "/pages/index/components/sh-grid-swiper",
+    "sh-groupon": "/pages/index/components/sh-groupon",
+    "sh-hot-goods": "/pages/index/components/sh-hot-goods",
+    "sh-adv": "/pages/index/components/sh-adv",
+    "sh-coupon": "/pages/index/components/sh-coupon",
+    "sh-seckill": "/pages/index/components/sh-seckill",
+    "sh-richtext": "/pages/index/components/sh-richtext",
+    "sh-cell": "/pages/index/components/sh-cell",
+    "sh-grid": "/pages/index/components/sh-grid",
+    "sh-title-card": "/pages/index/components/sh-title-card",
+    "sh-wallet": "/pages/index/components/sh-wallet",
+    "sh-order-card": "/pages/index/components/sh-order-card",
+    "sh-search": "/pages/index/components/sh-search",
+    "sh-category-tabs": "/pages/index/components/sh-category-tabs",
+    "sh-live": "/pages/index/components/sh-live"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "sh-hot-goods-u-waterfall-left": "/pages/index/components/sh-hot-goods-u-waterfall-left",
+    "sh-hot-goods-u-waterfall-right": "/pages/index/components/sh-hot-goods-u-waterfall-right",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "shopro-goods-card": "/components/shopro-goods-card/shopro-goods-card",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "sh-goods-card": "/pages/index/components/sh-goods-card"
+  }
+}

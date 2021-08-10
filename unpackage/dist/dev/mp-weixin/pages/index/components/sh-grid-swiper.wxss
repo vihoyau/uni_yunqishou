@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.menu-category-box,
+.menu-swiper-box {
+  position: relative;
+  background: #fff;
+}
+.menu-category-box .menu-swiper-item,
+.menu-swiper-box .menu-swiper-item {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+}
+.menu-category-box .menu-tab-box .tab-list,
+.menu-swiper-box .menu-tab-box .tab-list {
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #333333;
+  margin: 20rpx 0;
+}
+.menu-category-box .menu-tab-box .tab-list .tab-img,
+.menu-swiper-box .menu-tab-box .tab-list .tab-img {
+  width: 98rpx;
+  height: 98rpx;
+  margin-bottom: 10rpx;
+}
+.menu-category-box .menu-category-dots,
+.menu-swiper-box .menu-category-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 10rpx;
+}
+.menu-category-box .menu-category-dots .category-dot,
+.menu-swiper-box .menu-category-dots .category-dot {
+  width: 12rpx;
+  height: 12rpx;
+  background: #eeeeee;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+.menu-category-box .menu-category-dots .category-dot-active,
+.menu-swiper-box .menu-category-dots .category-dot-active {
+  width: 12rpx;
+  height: 12rpx;
+  background: #e9b461;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+.menu-list-box .menu-item {
+  height: 100rpx;
+  padding: 0 30rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #f3f3f3;
+}
+.menu-list-box .menu-item .item-img {
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 20rpx;
+}
+.menu-list-box .menu-item .item-title {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 24rpx;
+}
+

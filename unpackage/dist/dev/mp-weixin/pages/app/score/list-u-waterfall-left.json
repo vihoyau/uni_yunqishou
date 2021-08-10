@@ -1,0 +1,12 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list-u-waterfall-left": "/pages/app/score/list-u-waterfall-left",
+    "list-u-waterfall-right": "/pages/app/score/list-u-waterfall-right",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "shopro-goods-card": "/components/shopro-goods-card/shopro-goods-card",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal"
+  }
+}

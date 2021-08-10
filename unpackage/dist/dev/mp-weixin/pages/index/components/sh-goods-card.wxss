@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.big-goods {
+  width: 710rpx;
+  height: 260rpx;
+  background: #ffffff;
+  border-radius: 20rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.big-goods .card-right {
+  width: 430rpx;
+  height: 220rpx;
+}
+.big-goods .goods-title {
+  font-size: 26rpx;
+  font-weight: 600;
+  width: 400rpx;
+  color: #000000;
+  padding-top: 6rpx;
+}
+.big-goods .goods-title .title-tag {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  position: relative;
+  top: -6rpx;
+}
+.big-goods .subtitle-text {
+  font-size: 22rpx;
+  width: 400rpx;
+  font-weight: 500;
+  color: #666666;
+}
+.big-goods .tag-box {
+  border: 1rpx solid #ff0000;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding: 0 10rpx;
+  color: #ff0000;
+  border-radius: 8rpx;
+}
+.big-goods .cart-box .cart-btn {
+  width: 54rpx;
+  height: 54rpx;
+  border-radius: 50%;
+  padding: 0;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+}
+.big-goods .cart-box .buy-btn {
+  width: 120rpx;
+  line-height: 50rpx;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  border-radius: 25rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #ffffff;
+}
+.big-goods .price {
+  color: #ff0000;
+  font-weight: 600;
+}
+.big-goods .price::before {
+  content: '￥';
+  font-size: 20rpx;
+}
+.big-goods .origin-price {
+  color: #c4c4c4;
+  font-size: 24rpx;
+  text-decoration: line-through;
+}
+.big-goods .origin-price::before {
+  content: '￥';
+  font-size: 20rpx;
+}
+

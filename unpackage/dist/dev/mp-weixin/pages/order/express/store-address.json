@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "选择自提点",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-radio": "/uview-ui/components/u-radio/u-radio",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

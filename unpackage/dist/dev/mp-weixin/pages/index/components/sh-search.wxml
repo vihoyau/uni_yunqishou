@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['e0',['$event']]]]]}}" class="search u-flex u-row-center u-col-center u-m-b-10 u-p-x-20" bindtap="__e"><view style="width:710rpx;"><u-search vue-id="5b7195e9-1" disabled="{{true}}" show-action="{{false}}" placeholder="搜索" bind:__l="__l"></u-search></view></view>

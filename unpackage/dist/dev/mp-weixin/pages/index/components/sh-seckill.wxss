@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.seckill-card.data-v-1759092c {
+  background: -webkit-linear-gradient(#ffebec 20%, #fff 30%, #fff 100%);
+  background: linear-gradient(#ffebec 20%, #fff 30%, #fff 100%);
+}
+.seckill-title.data-v-1759092c {
+  background: url("http://file.shopro.top/imgs/tag/seckill_title_bg.png") no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+}
+.activity-wrap.data-v-1759092c {
+  background-color: #fff;
+  min-height: 300rpx;
+}
+.activity-wrap .title-box .title-text.data-v-1759092c {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.activity-wrap .title-box .more-box .more-text.data-v-1759092c {
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.activity-wrap .title-box .more-box .more-icon.data-v-1759092c {
+  font-size: 24rpx;
+  color: #333333;
+}
+.activity-wrap .scroll-box.data-v-1759092c,
+.activity-wrap .goods-box.data-v-1759092c {
+  height: 380rpx;
+  width: 100%;
+}
+.min-goods.data-v-1759092c {
+  width: 220rpx;
+  height: 380rpx;
+  background: #fff7f7;
+  box-shadow: 0px 7rpx 7rpx 0px rgba(255, 80, 94, 0.32);
+  border-radius: 10rpx;
+}
+.min-goods .img-box.data-v-1759092c {
+  width: 220rpx;
+  height: 220rpx;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10rpx 10rpx 0 0;
+}
+.min-goods .img-box .img.data-v-1759092c {
+  width: 220rpx;
+  height: 220rpx;
+  background-color: #ccc;
+}
+.min-goods .mgoods-card-bottom.data-v-1759092c {
+  height: 160rpx;
+  background: url("http://file.shopro.top/imgs/tag/seckill_goods_bg.png") no-repeat;
+  background-position: bottom center;
+  background-size: 100% 100%;
+}
+.min-goods .goods-title.data-v-1759092c {
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #000000;
+  line-height: 26rpx;
+}
+.min-goods .price-box .price.data-v-1759092c {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #ff0000;
+}
+.min-goods .price-box .price.data-v-1759092c::before {
+  content: '￥';
+  font-size: 24rpx;
+}
+.min-goods .price-box .original-price.data-v-1759092c {
+  font-size: 20rpx;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: #c4c4c4;
+}
+.big-goods.data-v-1759092c {
+  width: 710rpx;
+  min-height: 260rpx;
+  background: #ffffff;
+  box-shadow: 0px 7rpx 8rpx 1rpx rgba(254, 76, 29, 0.05);
+  border-radius: 20rpx;
+}
+.big-goods .card-right.data-v-1759092c {
+  width: 430rpx;
+  height: 100%;
+}
+.big-goods .goods-title.data-v-1759092c {
+  font-size: 26rpx;
+  font-weight: 600;
+  width: 400rpx;
+  color: #000000;
+}
+.big-goods .goods-title .title-tag.data-v-1759092c {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.big-goods .subtitle-text.data-v-1759092c {
+  font-size: 22rpx;
+  width: 400rpx;
+  font-weight: 500;
+  color: #666666;
+}
+.big-goods .buy-btn.data-v-1759092c {
+  width: 120rpx;
+  line-height: 50rpx;
+  background: -webkit-linear-gradient(left, #d01325, #ed3c30);
+  background: linear-gradient(90deg, #d01325, #ed3c30);
+  border-radius: 25rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #ffffff;
+}
+.big-goods .progress-text.data-v-1759092c {
+  color: #c4c4c4;
+  font-size: 20rpx;
+  margin-left: 25rpx;
+}
+.big-goods .price.data-v-1759092c {
+  color: #ff0000;
+  font-weight: 600;
+}
+.big-goods .price.data-v-1759092c::before {
+  content: '￥';
+  font-size: 20rpx;
+}
+.big-goods .origin-price.data-v-1759092c {
+  color: #c4c4c4;
+  font-size: 24rpx;
+  text-decoration: line-through;
+}
+.big-goods .origin-price.data-v-1759092c::before {
+  content: '￥';
+  font-size: 20rpx;
+}
+

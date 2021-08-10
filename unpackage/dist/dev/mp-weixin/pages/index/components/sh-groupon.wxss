@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.groupon-card.data-v-4a45b54e {
+  background: -webkit-linear-gradient(#faecca 20%, #ffffff 30%, #ffffff 100%);
+  background: linear-gradient(#faecca 20%, #ffffff 30%, #ffffff 100%);
+}
+.groupon-title.data-v-4a45b54e {
+  background: url("http://file.shopro.top/imgs/tag/groupon_title_bg.png") no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+}
+.activity-wrap.data-v-4a45b54e {
+  background-color: #fff;
+  min-height: 300rpx;
+}
+.activity-wrap .title-box .title-text.data-v-4a45b54e {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.activity-wrap .title-box .more-box .more-text.data-v-4a45b54e {
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.activity-wrap .title-box .more-box .more-icon.data-v-4a45b54e {
+  font-size: 24rpx;
+  color: #333333;
+}
+.activity-wrap .scroll-box.data-v-4a45b54e,
+.activity-wrap .goods-box.data-v-4a45b54e {
+  height: 380rpx;
+  width: 100%;
+}
+.min-goods.data-v-4a45b54e {
+  width: 220rpx;
+  height: 380rpx;
+  background: #fffaef;
+  box-shadow: 0px 7rpx 8rpx 1rpx rgba(162, 117, 27, 0.24);
+  border-radius: 10rpx;
+}
+.min-goods .img-box.data-v-4a45b54e {
+  width: 220rpx;
+  height: 220rpx;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10rpx 10rpx 0 0;
+}
+.min-goods .img-box .img.data-v-4a45b54e {
+  width: 220rpx;
+  height: 220rpx;
+  background-color: #ccc;
+}
+.min-goods .mgoods-card-bottom.data-v-4a45b54e {
+  height: 160rpx;
+  background: url("http://file.shopro.top/imgs/tag/groupon_goods_bg.png") no-repeat;
+  background-position: bottom center;
+  background-size: 100% 100%;
+}
+.min-goods .goods-title.data-v-4a45b54e {
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #000000;
+  width: 180rpx;
+  line-height: 26rpx;
+}
+.min-goods .price.data-v-4a45b54e {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #ff0000;
+}
+.min-goods .price.data-v-4a45b54e::before {
+  content: '￥';
+  font-size: 24rpx;
+}
+.min-goods .original-price.data-v-4a45b54e {
+  font-size: 20rpx;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: #c4c4c4;
+}
+.min-goods .groupon-num-box .avatar-box.data-v-4a45b54e {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  height: 30rpx;
+}
+.min-goods .groupon-num-box .avatar-box .avatar-img.data-v-4a45b54e {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+}
+.min-goods .groupon-num-box .groupon-num-text.data-v-4a45b54e {
+  font-size: 18rpx;
+  font-weight: 500;
+  color: #e9b461;
+}
+.big-goods.data-v-4a45b54e {
+  width: 710rpx;
+  min-height: 260rpx;
+  background: #ffffff;
+  box-shadow: 0px 7rpx 8rpx 1rpx #fffaef;
+  border-radius: 20rpx;
+}
+.big-goods .card-right.data-v-4a45b54e {
+  width: 430rpx;
+  height: 100%;
+}
+.big-goods .goods-title.data-v-4a45b54e {
+  font-size: 26rpx;
+  font-weight: 600;
+  width: 400rpx;
+  color: #000000;
+  vertical-align: middle;
+}
+.big-goods .goods-title .title-tag.data-v-4a45b54e {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.big-goods .subtitle-text.data-v-4a45b54e {
+  font-size: 22rpx;
+  width: 400rpx;
+  font-weight: 500;
+  color: #666666;
+}
+.big-goods .buy-btn.data-v-4a45b54e {
+  width: 120rpx;
+  line-height: 50rpx;
+  background: -webkit-linear-gradient(left, #ff6600 0%, #fe832a 100%);
+  background: linear-gradient(90deg, #ff6600 0%, #fe832a 100%);
+  border-radius: 25rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #ffffff;
+}
+.big-goods .sell-box.data-v-4a45b54e {
+  background: rgba(249, 239, 214, 0.3);
+  border-radius: 16rpx;
+  line-height: 32rpx;
+}
+.big-goods .sell-box .sell-num.data-v-4a45b54e {
+  font-size: 20rpx;
+  font-weight: 400;
+  color: #ff6904;
+}
+.big-goods .sell-box .hot-icon.data-v-4a45b54e {
+  font-size: 26rpx;
+  color: #ff6904;
+  margin-right: 8rpx;
+}
+.big-goods .group-num.data-v-4a45b54e {
+  font-size: 20rpx;
+  font-weight: 500;
+  color: #999999;
+  margin-left: 20rpx;
+}
+.big-goods .price.data-v-4a45b54e {
+  color: #ff0000;
+  font-weight: 600;
+}
+.big-goods .price.data-v-4a45b54e::before {
+  content: '￥';
+  font-size: 20rpx;
+}
+.big-goods .origin-price.data-v-4a45b54e {
+  color: #c4c4c4;
+  font-size: 24rpx;
+  text-decoration: line-through;
+}
+.big-goods .origin-price.data-v-4a45b54e::before {
+  content: '￥';
+  font-size: 20rpx;
+}
+

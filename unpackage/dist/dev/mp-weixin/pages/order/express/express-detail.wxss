@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 物流卡片 */
+.oilStation-top {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  margin: 20rpx;
+  background: white;
+  box-shadow: 0 1rpx 18rpx 0 rgba(184, 184, 184, 0.55);
+  border-radius: 20rpx;
+}
+.oilStation-top .express-card__head {
+  padding: 20rpx;
+}
+.oilStation-top .img-box {
+  position: relative;
+  width: 129rpx;
+  height: 129rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  background: #ccc;
+}
+.oilStation-top .img-box .goods-image {
+  width: 129rpx;
+  height: 129rpx;
+}
+.oilStation-top .shop-tag {
+  position: absolute;
+  width: 129rpx;
+  height: 30rpx;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 18rpx;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  z-index: 5;
+}
+.oilStation-top .express-status {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #333333;
+  margin-left: 20rpx;
+}
+.oilStation-top .express-sn {
+  width: 100%;
+  height: 65rpx;
+  background: #fafbff;
+  border-radius: 0 0 20rpx 20rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #666666;
+  padding: 0 30rpx;
+}
+.oilStation-bottom {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  background: #fff;
+  width: 710rpx;
+  margin: 0 20rpx 20rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 1rpx 18rpx 0 rgba(184, 184, 184, 0.55);
+  padding: 0 30rpx;
+}
+.no-log {
+  width: 100%;
+  height: 100rpx;
+  color: #999;
+}
+.express-item {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.express-item .item-left .day {
+  font-size: 26rpx;
+  white-space: nowrap;
+}
+.express-item .item-left .time {
+  font-size: 20rpx;
+  white-space: nowrap;
+}
+.express-item .item-right {
+  position: relative;
+  padding-left: 54rpx;
+  margin-left: 54rpx;
+  border-left: 1rpx solid #e7e7e7;
+  padding-bottom: 40rpx;
+}
+.express-item .item-right .express-tag {
+  width: 54rpx;
+  height: 54rpx;
+  position: absolute;
+  left: -27rpx;
+  top: 0;
+}
+.express-item .item-right .express-title {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 10rpx;
+}
+.express-item .item-right .express-detail {
+  width: 400rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #333333;
+}
+

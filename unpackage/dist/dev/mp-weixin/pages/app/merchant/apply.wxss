@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.apply-commission-wrap {
+  background-color: #fff;
+}
+.apply-commission-wrap .head-box {
+  background: url("http://file.shopro.top/imgs/user/sh_leader_apply_head.png") no-repeat;
+  background-size: 100% auto;
+  height: 370rpx;
+}
+.apply-form {
+  width: 750rpx;
+  background: #ffffff;
+  border-radius: 20rpx;
+  padding: 30rpx;
+}
+.apply-form .agreement {
+  margin-top: 20rpx;
+}
+.apply-form .agreement .agreement-text {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #4cb89d;
+}
+.apply-form .save-btn {
+  width: 690rpx;
+  line-height: 86rpx;
+  background: -webkit-linear-gradient(left, #2dae9c, #6bc29e);
+  background: linear-gradient(90deg, #2dae9c, #6bc29e);
+  box-shadow: 0px 7rpx 11rpx 2rpx rgba(61, 179, 156, 0.34);
+  border-radius: 43rpx;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 30rpx 0;
+}
+.week-modal .week-modal--head {
+  height: 100rpx;
+  border-bottom: 1rpx solid #e4e7ed;
+}
+.week-modal .week-modal--head .text-cancel {
+  color: #ccc;
+}
+.week-modal .week-modal--head .text-green {
+  color: #18b566;
+}
+.week-modal .week-modal--content .week-btn {
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.week-modal .week-modal--content .week-btn:nth-of-type(3n) {
+  margin-right: 0;
+}
+.notice-modal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 612rpx;
+  min-height: 658rpx;
+  background: #ffffff;
+  padding: 30rpx;
+  border-radius: 20rpx;
+}
+.notice-modal .img-wrap {
+  margin-bottom: 50rpx;
+}
+.notice-modal .img-wrap .notice-img {
+  width: 180rpx;
+  height: 170rpx;
+}
+.notice-modal .notice-title {
+  font-size: 35rpx;
+  font-weight: bold;
+  color: #46351b;
+  margin-bottom: 28rpx;
+}
+.notice-modal .notice-detail {
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #999999;
+  line-height: 36rpx;
+  margin-bottom: 50rpx;
+}
+.notice-modal .notice-btn {
+  width: 492rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: -webkit-linear-gradient(left, #2dae9c, #6bc29e);
+  background: linear-gradient(90deg, #2dae9c, #6bc29e);
+  box-shadow: 0 7rpx 11rpx 2rpx rgba(61, 179, 156, 0.34);
+  border-radius: 35rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 10rpx;
+}
+.notice-modal .back-btn {
+  width: 492rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #3ab29c;
+  background: none;
+}
+

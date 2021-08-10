@@ -1,0 +1,1 @@
+<view class="rich-wrap"><view class="content_box"><u-parse vue-id="f12e1880-1" html="{{richText.content}}" bind:__l="__l"></u-parse></view></view>

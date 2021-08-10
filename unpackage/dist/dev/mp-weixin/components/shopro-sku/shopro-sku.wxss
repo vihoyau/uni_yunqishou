@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.size-box.data-v-edf15838 {
+  line-height: 82rpx;
+  background: #fff;
+  padding: 0 20rpx;
+  margin: 20rpx 0;
+  font-size: 28rpx;
+}
+.size-box .title.data-v-edf15838 {
+  color: #999;
+  margin-right: 20rpx;
+}
+.size-box .cuIcon-right.data-v-edf15838 {
+  color: #bfbfbf;
+  font-size: 36rpx;
+}
+.shop-modal.data-v-edf15838 {
+  width: 750rpx;
+  height: 950rpx;
+  background: white;
+  padding: 20rpx 20rpx 30rpx;
+}
+.shop-modal .top.data-v-edf15838 {
+  margin: 30rpx 0;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+.shop-modal .top .shop-img.data-v-edf15838 {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 6rpx;
+  margin-right: 30rpx;
+  background: #ccc;
+}
+.shop-modal .top .goods-box.data-v-edf15838 {
+  height: 160rpx;
+  width: 490rpx;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.shop-modal .top .goods-box .goods-title.data-v-edf15838 {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #333333;
+  line-height: 42rpx;
+  text-align: left;
+}
+.shop-modal .top .goods-box .goods-bottom.data-v-edf15838 {
+  width: 100%;
+}
+.shop-modal .top .goods-box .price-box.data-v-edf15838 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #e1212b;
+}
+.shop-modal .top .goods-box .price-box .unit.data-v-edf15838 {
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #e1212b;
+}
+.shop-modal .top .goods-box .stock.data-v-edf15838 {
+  font-size: 26rpx;
+  color: #999;
+}
+.shop-modal .select-box.data-v-edf15838 {
+  margin-bottom: 30rpx;
+}
+.shop-modal .select-box .type-title.data-v-edf15838 {
+  font-size: 26rpx;
+  font-weight: 400;
+  margin-bottom: 20rpx;
+}
+.shop-modal .select-box .tag-box.data-v-edf15838 {
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.shop-modal .select-box .tag.data-v-edf15838 {
+  line-height: 62rpx;
+  background: #f4f4f4;
+  border-radius: 31rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #666666;
+  padding: 0 30rpx;
+  margin-bottom: 20rpx;
+  margin-right: 10rpx;
+}
+.shop-modal .select-box .tag-active.data-v-edf15838 {
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #ffffff;
+}
+.shop-modal .select-box .tag-disabled.data-v-edf15838 {
+  background: #f8f8f8;
+  color: #cacaca;
+}
+.shop-modal .buy-num-box .num-title.data-v-edf15838 {
+  font-size: 26rpx;
+  font-weight: 400;
+  margin-bottom: 20rpx;
+}
+.btn-box.data-v-edf15838 {
+  height: 100rpx;
+}
+.btn-box .cu-btn.data-v-edf15838 {
+  width: 340rpx;
+  line-height: 70rpx;
+  border-radius: 35rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0;
+}
+.btn-box .cart-btn.data-v-edf15838 {
+  background: -webkit-linear-gradient(left, #676869, #525252);
+  background: linear-gradient(90deg, #676869, #525252);
+  box-shadow: 0px 2rpx 5rpx 0px rgba(102, 103, 104, 0.46);
+}
+.btn-box .buy-btn.data-v-edf15838 {
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+}
+.btn-box .save-btn.data-v-edf15838 {
+  width: 710rpx;
+  height: 70rpx;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  font-size: 28rpx;
+  font-weight: 500;
+  color: white;
+  border-radius: 35rpx;
+  padding: 0;
+}
+.btn-box .cancel-btn.data-v-edf15838 {
+  width: 710rpx;
+  height: 70rpx;
+  background: #dddddd;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #999999;
+  border-radius: 35rpx;
+  padding: 0;
+}
+

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.info-head .info-title.data-v-4b89896e {
+  line-height: 60rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #333333;
+}
+.info-head .save-btn.data-v-4b89896e {
+  color: #fff;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  width: 100rpx;
+  border-radius: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+.info-head .dis-btn.data-v-4b89896e {
+  opacity: 0.5;
+}
+.other-account .head-title.data-v-4b89896e {
+  line-height: 82rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #333333;
+}
+.other-account .list-img.data-v-4b89896e {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.other-account .account-list.data-v-4b89896e {
+  background-color: #fff;
+  height: 100rpx;
+  padding: 0 20rpx;
+}
+.other-account .account-list .info .avatar.data-v-4b89896e {
+  width: 38rpx;
+  height: 38rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.other-account .account-list .info .name.data-v-4b89896e {
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.other-account .account-list .bind-box .bind-btn.data-v-4b89896e {
+  padding: 0 20rpx;
+  line-height: 60rpx;
+  background: #f5f6f8;
+  border-radius: 20rpx;
+  color: #999;
+}
+.other-account .account-list .bind-box .relieve-btn.data-v-4b89896e {
+  border-radius: 20rpx;
+  padding: 0 20rpx;
+  line-height: 60rpx;
+  background: rgba(255, 0, 0, 0.05);
+  color: #ff0000;
+}
+.user-list.data-v-4b89896e {
+  background: #fff;
+  height: 100rpx;
+  border-bottom: 1rpx solid #f6f6f6;
+  padding: 0 20rpx;
+}
+.user-list .list-name.data-v-4b89896e {
+  font-size: 28rpx;
+}
+.user-list .avatar.data-v-4b89896e {
+  width: 67rpx;
+  height: 67rpx;
+  border-radius: 50%;
+}
+.user-list .cuIcon-right.data-v-4b89896e {
+  margin-left: 25rpx;
+}
+.user-list .list-val.data-v-4b89896e {
+  color: #999;
+  font-size: 28rpx;
+  text-align: right;
+}
+.btn-box.data-v-4b89896e {
+  margin-top: 200rpx;
+}
+.btn-box .logout-btn.data-v-4b89896e {
+  width: 710rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 1rpx solid #f54141;
+  border-radius: 40rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #f54141;
+}
+.btn-box .hover-logout-btn.data-v-4b89896e {
+  width: 710rpx;
+  height: 80rpx;
+  background: #f54141;
+  border: 1rpx solid #f54141;
+  border-radius: 40rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #ffffff;
+}
+

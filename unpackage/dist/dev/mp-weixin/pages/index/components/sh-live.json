@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "shopro-live-card": "/components/shopro-live-card/shopro-live-card"
+  }
+}

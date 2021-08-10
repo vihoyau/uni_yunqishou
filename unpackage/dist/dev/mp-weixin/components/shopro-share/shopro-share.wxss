@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.guide-wrap {
+  height: 100%;
+}
+.guide-wrap .guide-img {
+  width: 580rpx;
+  height: 430rpx;
+}
+.poster-btn-box .cancel-btn {
+  width: 300rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: #ffffff;
+  border-radius: 35rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #999999;
+}
+.poster-btn-box .save-btn {
+  width: 300rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  border-radius: 35rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #ffffff;
+}
+.poster-img-box .poster-img {
+  width: 660rpx;
+  min-height: 800rpx;
+  border-radius: 20rpx;
+}
+.share-box {
+  background: #fff;
+  width: 750rpx;
+  border-radius: 30rpx 30rpx 0 0;
+  padding-top: 30rpx;
+  position: relative;
+}
+.share-box .share-foot {
+  font-size: 24rpx;
+  color: #bfbfbf;
+  height: 80rpx;
+  border-top: 1rpx solid #eee;
+}
+.share-box .share-list-box .share-btn {
+  background: none;
+  border: none;
+  line-height: 1;
+  padding: 0;
+}
+.share-box .share-list-box .share-btn::after {
+  border: none;
+}
+.share-box .share-list-box .share-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-bottom: 20rpx;
+}
+.share-box .share-list-box .share-item .share-img {
+  width: 70rpx;
+  height: 70rpx;
+  background: #f6f6fe;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+.share-box .share-list-box .share-item .share-title {
+  font-size: 24rpx;
+  color: #666;
+}
+

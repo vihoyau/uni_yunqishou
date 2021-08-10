@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.direct-box {
+  margin: 20rpx;
+}
+.direct-box .direct-item {
+  width: 341rpx;
+  height: 117rpx;
+  background: #ffffff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+.direct-box .direct-item .item-title {
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #999999;
+  margin-bottom: 6rpx;
+}
+.direct-box .direct-item .item-value {
+  font-size: 38rpx;
+  font-weight: 600;
+  color: #333333;
+}
+.team-data-box {
+  margin: 20rpx;
+}
+.team-data-box .data-card {
+  width: 340rpx;
+  background: #ffffff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+.team-data-box .data-card .item-title {
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #999999;
+  line-height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.team-data-box .data-card .total-item {
+  margin-bottom: 20rpx;
+}
+.team-data-box .data-card .total-num {
+  font-size: 38rpx;
+  font-weight: 600;
+  color: #333333;
+}
+.team-data-box .data-card .category-num {
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #333333;
+}
+.head_box {
+  width: 750rpx;
+  background: url("http://file.shopro.top/imgs/commission/card_bg.png") no-repeat;
+}
+.filter-box {
+  height: 120rpx;
+  padding: 0 30rpx;
+  background-color: #f6f6f6;
+}
+.filter-box .date-btn {
+  background-color: #fff;
+  line-height: 54rpx;
+  border-radius: 27rpx;
+  padding: 0 20rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #666666;
+}
+.filter-box .total-box {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #666666;
+}
+.nav-box {
+  background-color: #fff;
+}
+.state-item {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.state-item .state-title {
+  color: #666;
+  font-weight: 500;
+  font-size: 28rpx;
+  line-height: 90rpx;
+}
+.state-item .title-active {
+  color: #333;
+}
+.state-item .underline {
+  display: block;
+  width: 68rpx;
+  height: 4rpx;
+  background: #fff;
+  border-radius: 2rpx;
+}
+.state-item .underline-active {
+  background: #5e49c3;
+  display: block;
+  width: 68rpx;
+  height: 4rpx;
+  border-radius: 2rpx;
+}
+.order-list {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.order-list .order-head {
+  padding: 20rpx;
+}
+.order-list .order-head .order-code {
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.order-list .order-head .order-state {
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #05c3a1;
+}
+.order-list .order-from {
+  background-color: #f9f9f9;
+  padding: 20rpx;
+}
+.order-list .order-from .from-user {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #666666;
+}
+.order-list .order-from .from-user .user-avatar {
+  width: 26rpx;
+  height: 26rpx;
+  border-radius: 50%;
+  margin-right: 8rpx;
+}
+.order-list .order-from .from-user .user-name {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.order-list .order-from .order-time {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.order-list .goods-card {
+  padding: 30rpx 20rpx;
+}
+.order-list .goods-card .goods-img-box {
+  margin-right: 30rpx;
+}
+.order-list .goods-card .goods-img-box .goods-img {
+  width: 160rpx;
+  height: 160rpx;
+  background-color: #ccc;
+}
+.order-list .goods-card .goods-info {
+  height: 160rpx;
+  width: 600rpx;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.order-list .goods-card .goods-info .goods-title {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.order-list .goods-card .goods-info .goods-sku {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #666666;
+}
+.order-list .goods-card .goods-info .goods-price {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.order-list .goods-card .goods-info .goods-price .goods-state {
+  line-height: 30rpx;
+  padding: 0 10rpx;
+  background: #f1eeff;
+  border: 1rpx solid #603fff;
+  border-radius: 30rpx;
+  margin-left: 20rpx;
+  font-size: 20rpx;
+  color: #5e49c3;
+}
+.order-list .goods-card .goods-info .goods-price::before {
+  content: '￥';
+  font-size: 20rpx;
+}
+.order-list .goods-card .goods-info .total-box {
+  height: 80rpx;
+  width: 100%;
+}
+.order-list .goods-card .goods-info .total-box .num-price {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.order-list .goods-card .goods-info .total-box .name {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.order-list .goods-card .goods-info .total-box .commission-num {
+  font-size: 30rpx;
+  font-weight: 400;
+  color: #eb2b3d;
+}
+.order-list .goods-card .goods-info .total-box .commission-num::before {
+  content: '￥';
+  font-size: 22rpx;
+}
+

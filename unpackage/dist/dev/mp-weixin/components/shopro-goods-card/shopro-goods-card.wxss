@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.goods-bottom {
+  background-size: 100% 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.goods-box {
+  width: 345rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.goods-box .img-box {
+  width: 345rpx;
+  height: 345rpx;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+.goods-box .img-box .img {
+  width: 345rpx;
+  height: 345rpx;
+  background-color: #ccc;
+}
+.goods-box .title {
+  width: 330rpx;
+  vertical-align: center;
+  font-size: 28rpx;
+  font-weight: bold;
+  line-height: 40rpx;
+  color: #333333;
+  padding-top: 6rpx;
+}
+.goods-box .title .title-tag {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  position: relative;
+  top: -6rpx;
+}
+.goods-box .sub-title {
+  font-size: 24rpx;
+  font-weight: 400;
+  width: 330rpx;
+  color: #999999;
+}
+.goods-box .price-box .price {
+  font-size: 30rpx;
+  color: #ff3000;
+  font-weight: 600;
+}
+.goods-box .price-box .price::before {
+  content: '￥';
+  font-size: 24rpx;
+}
+.goods-box .price-box .origin-price {
+  font-size: 26rpx;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #c4c4c4;
+}
+.goods-box .price-box .sales-box {
+  font-size: 18rpx;
+  font-weight: 400;
+  color: #c4c4c4;
+  line-height: 20rpx;
+}
+.goods-box .cart-box .cart-btn {
+  width: 54rpx;
+  height: 54rpx;
+  border-radius: 50%;
+  padding: 0;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+}
+

@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.calendar {
+  background: #fff;
+}
+.calendar .sign-everyday {
+  height: 100rpx;
+  background: white;
+  border: 1rpx solid rgba(223, 223, 223, 0.4);
+}
+.calendar .sign-everyday .sign-everyday-title {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.calendar .sign-everyday .sign-num-box {
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #999999;
+}
+.calendar .sign-everyday .sign-num-box .sign-num {
+  font-weight: 600;
+  color: #e3ad5b;
+  padding: 0 10rpx;
+}
+.calendar .bar {
+  height: 100rpx;
+}
+.calendar .bar .date {
+  font-weight: 600;
+}
+.calendar .week .week-item {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #999999;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.calendar .myDateTable {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.calendar .myDateTable .dateCell {
+  width: 107.14286rpx;
+  height: 80rpx;
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #333333;
+}
+.calendar .myDateTable .dateCell .cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.is-sign {
+  width: 40rpx;
+  height: 40rpx;
+  background: -webkit-linear-gradient(318deg, #f3dfb1, #f3dfb1, #ecbe60);
+  background: linear-gradient(132deg, #f3dfb1, #f3dfb1, #ecbe60);
+  border-radius: 50%;
+  box-shadow: 0 0 4rpx 4rpx rgba(227, 173, 91, 0.4);
+  color: #fff;
+}
+.sign-box {
+  height: 140rpx;
+  width: 100%;
+}
+.sign-box .sign-btn {
+  width: 219rpx;
+  line-height: 70rpx;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  border-radius: 35rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+.sign-modal-box {
+  width: 520rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  position: relative;
+}
+.sign-modal-box .modal-head {
+  height: 320rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  position: relative;
+}
+.sign-modal-box .modal-head .modal-bg {
+  width: 100%;
+  height: 100%;
+}
+.sign-modal-box .modal-head .sign-tag {
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 50rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.sign-modal-box .modal-head .sign-num-box {
+  font-size: 30rpx;
+  color: #fff;
+  position: absolute;
+  top: 150rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.sign-modal-box .modal-head .sign-num-box .sign-num {
+  font-size: 36rpx;
+  font-weight: 600;
+  padding: 0 10rpx;
+}
+.sign-modal-box .modal-content {
+  padding: 30rpx 0;
+}
+.sign-modal-box .modal-content .sign-success {
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #e3ad5b;
+}
+.sign-modal-box .modal-content .sign-score {
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #999999;
+  padding-top: 16rpx;
+}
+.sign-modal-box .modal-bottom {
+  padding-bottom: 47rpx;
+}
+.sign-modal-box .modal-bottom .confirem-btn {
+  width: 300rpx;
+  line-height: 70rpx;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  border-radius: 35rpx;
+  padding: 0;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "shopro-mini-card": "/components/shopro-mini-card/shopro-mini-card",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal"
+  }
+}

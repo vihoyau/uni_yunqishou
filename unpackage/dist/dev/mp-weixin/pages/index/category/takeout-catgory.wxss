@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.hack-tabbar.data-v-1fee0464 {
+  height: calc(100rpx + env(safe-area-inset-bottom) / 2);
+  width: 100%;
+}
+.catgory-wrap.data-v-1fee0464 {
+  height: calc(100vh);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.wrapper-box.data-v-1fee0464 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+}
+.wrapper-box .u-tab-view.data-v-1fee0464 {
+  width: 200rpx;
+  height: 100%;
+}
+.wrapper-box .u-tab-view .u-tab-item.data-v-1fee0464 {
+  height: 84rpx;
+  background: #f6f6f6;
+  width: 200rpx;
+  padding-left: 16rpx;
+  font-size: 26rpx;
+  color: #444;
+  font-weight: 400;
+  line-height: 84rpx;
+}
+.wrapper-box .u-tab-view .u-tab-item-active.data-v-1fee0464 {
+  position: relative;
+  color: #000;
+  font-size: 30rpx;
+  font-weight: bold;
+  background: #fff;
+}
+.wrapper-box .u-tab-view .u-tab-item-active.data-v-1fee0464::before {
+  content: '';
+  position: absolute;
+  border-left: 4px solid #e6b873;
+  height: 32rpx;
+  left: 0;
+  top: 26rpx;
+}
+.right-wrap.data-v-1fee0464 {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+.right-wrap .category-img.data-v-1fee0464 {
+  width: 505rpx;
+  height: 150rpx;
+  background: #ccc;
+  margin: 20rpx auto;
+  border-radius: 10rpx;
+}
+.right-wrap .category-title.data-v-1fee0464 {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #000;
+  margin: 20rpx;
+}
+.right-wrap .right-box.data-v-1fee0464 {
+  height: 100%;
+}
+.big-goods-card.data-v-1fee0464 {
+  background-color: #fff;
+  border-radius: 20rpx;
+  width: 100%;
+  box-shadow: 0 0 8rpx 2rpx rgba(199, 199, 199, 0.3);
+  padding-bottom: 20rpx;
+}
+.big-goods-card .img-wrap.data-v-1fee0464 {
+  position: relative;
+  overflow: hidden;
+  height: 256rpx;
+  width: 100%;
+}
+.big-goods-card .img-wrap .goods-img.data-v-1fee0464 {
+  width: 100%;
+  height: 256rpx;
+  border-radius: 20rpx 20rpx 0 0;
+  background-color: #ccc;
+}
+.big-goods-card .img-wrap .goods-tag.data-v-1fee0464 {
+  position: absolute;
+  top: 16rpx;
+  left: 16rpx;
+  width: 88rpx;
+  height: 88rpx;
+}
+.big-goods-card .goods-title.data-v-1fee0464 {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333333;
+  line-height: 36rpx;
+  padding-top: 6rpx;
+}
+.big-goods-card .goods-title .title-tag.data-v-1fee0464 {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  position: relative;
+  top: -6rpx;
+}
+.big-goods-card .goods-subtitle.data-v-1fee0464 {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+  line-height: 36rpx;
+  width: 480rpx;
+}
+.big-goods-card .tag-box.data-v-1fee0464 {
+  border: 1rpx solid #ff0000;
+  display: inline-block;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  padding: 0 10rpx;
+  color: #ff0000;
+  border-radius: 8rpx;
+}
+.big-goods-card .goods-progress .cu-progress.data-v-1fee0464 {
+  width: 200rpx;
+  height: 20rpx;
+  background: rgba(255, 99, 97, 0.2);
+  overflow: visible;
+  position: relative;
+}
+.big-goods-card .goods-progress .cu-progress .progress--ing.data-v-1fee0464 {
+  background: #ff6361;
+  border-radius: 20rpx;
+}
+.big-goods-card .goods-progress .cu-progress .round-tag.data-v-1fee0464 {
+  position: absolute;
+  bottom: 0;
+  width: 20rpx;
+  height: 28rpx;
+  margin-left: -10rpx;
+}
+.big-goods-card .goods-progress .cu-progress .round-tag .round-tag-img.data-v-1fee0464 {
+  width: 20rpx;
+  height: 28rpx;
+}
+.big-goods-card .goods-progress .googs-send-num.data-v-1fee0464 {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #bebebe;
+}
+.big-goods-card .price-box.data-v-1fee0464 {
+  vertical-align: text-bottom;
+}
+.big-goods-card .price-box .price.data-v-1fee0464 {
+  font-size: 36rpx;
+  color: #ff0000;
+  font-weight: 600;
+  vertical-align: text-bottom;
+}
+.big-goods-card .price-box .price.data-v-1fee0464::before {
+  content: '￥';
+  font-size: 28rpx;
+}
+.big-goods-card .price-box .origin-price.data-v-1fee0464 {
+  vertical-align: text-bottom;
+  font-size: 26rpx;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #c4c4c4;
+}
+.big-goods-card .cart-box .cart-btn.data-v-1fee0464,
+.big-goods-card .cart-box .sel-sku.data-v-1fee0464 {
+  width: 172rpx;
+  line-height: 58rpx;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  box-shadow: 0px 7rpx 6rpx 0px rgba(229, 138, 0, 0.22);
+  border-radius: 30rpx;
+  padding: 0;
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #ffffff;
+}
+

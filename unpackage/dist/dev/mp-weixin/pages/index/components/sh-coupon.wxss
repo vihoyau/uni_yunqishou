@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.groupon-scroll.data-v-6226463b {
+  height: 170rpx;
+  width: 730rpx;
+}
+.groupon-card-wrap.data-v-6226463b {
+  height: 170rpx;
+  width: 730rpx;
+}
+.coupon-box.data-v-6226463b {
+  background-color: #fff;
+}
+.coupon-box .head-box .head-title.data-v-6226463b {
+  width: 300rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.coupon-box .head-box .head-more .more-text.data-v-6226463b {
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.coupon-box .head-box .head-more .more-icon.data-v-6226463b {
+  color: #333333;
+  font-size: 24rpx;
+}
+.coupon-box .coupon-card.data-v-6226463b {
+  width: 343rpx;
+  height: 170rpx;
+  background: -webkit-linear-gradient(left, #f8dca5, #efc480);
+  background: linear-gradient(90deg, #f8dca5, #efc480);
+  border-radius: 10rpx;
+  -webkit-mask: url("http://file.shopro.top/imgs/coupon_mini_bg.png");
+          mask: url("http://file.shopro.top/imgs/coupon_mini_bg.png");
+  -webkit-mask-size: 100% 100%;
+          mask-size: 100% 100%;
+}
+.coupon-box .coupon-card .card-left.data-v-6226463b {
+  height: 100%;
+  width: 260rpx;
+}
+.coupon-box .coupon-card .card-left .price.data-v-6226463b {
+  color: #4f3a1e;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.coupon-box .coupon-card .card-left .price.data-v-6226463b::before {
+  content: '￥';
+  font-size: 20rpx;
+}
+.coupon-box .coupon-card .card-left .notice.data-v-6226463b {
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #a8700d;
+}
+.coupon-box .coupon-card .card-right.data-v-6226463b {
+  height: 100%;
+  width: 60rpx;
+}
+.coupon-box .coupon-card .card-right .get-btn.data-v-6226463b {
+  font-size: 24rpx;
+  font-weight: 500;
+  text-align: right;
+  color: #a8700d;
+  -webkit-writing-mode: vertical-lr;
+          writing-mode: vertical-lr;
+  /*从左向右 从右向左是 writing-mode: vertical-rl;*/
+  -webkit-writing-mode: tb-lr;
+          writing-mode: tb-lr;
+  /*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/
+}
+

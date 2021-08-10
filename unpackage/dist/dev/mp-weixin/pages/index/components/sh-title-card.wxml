@@ -1,0 +1,1 @@
+<view class="sh-title-card u-m-b-10"><view class="title-box"><image class="title-bg" src="{{bgImage}}" mode="aspectFill"></image><view class="title-text" style="{{'color:'+(titleColor)+';'}}">{{title}}</view></view></view>

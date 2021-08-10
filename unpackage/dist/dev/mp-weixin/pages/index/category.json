@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal",
+    "takeout-catgory": "/pages/index/category/takeout-catgory",
+    "three-catgory": "/pages/index/category/three-catgory",
+    "two-catgory": "/pages/index/category/two-catgory",
+    "one-catgory": "/pages/index/category/one-catgory"
+  }
+}

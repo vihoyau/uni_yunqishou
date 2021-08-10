@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "shopro-sku": "/components/shopro-sku/shopro-sku",
+    "shopro-share": "/components/shopro-share/shopro-share",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal",
+    "sh-serve": "/pages/goods/components/sh-serve",
+    "sh-price-card": "/pages/goods/components/sh-price-card",
+    "sh-groupon": "/pages/goods/components/sh-groupon",
+    "sh-coupon": "/pages/goods/components/sh-coupon",
+    "sh-comment": "/pages/goods/components/sh-comment",
+    "sh-activity": "/pages/goods/components/sh-activity"
+  }
+}

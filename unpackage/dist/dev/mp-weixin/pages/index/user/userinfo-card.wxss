@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.sh-userinfo-box {
+  position: relative;
+  height: calc(25px + 300rpx);
+}
+.sh-userinfo-box .head-wrap {
+  powidth: 100%;
+  height: 100%;
+}
+.sh-userinfo-box .head-wrap .merchant-btn {
+  width: 178rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  background: #ffffff;
+  border-radius: 32rpx;
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #a8700d;
+}
+.sh-userinfo-box .user-head {
+  width: 100%;
+  padding-top: 30rpx;
+}
+.sh-userinfo-box .user-head .info-box {
+  padding-left: 30rpx;
+}
+.sh-userinfo-box .user-head .info-box .head-img-wrap {
+  position: relative;
+}
+.sh-userinfo-box .user-head .info-box .head-img-wrap .refresh-btn {
+  position: absolute;
+  padding: 0;
+  background: none;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  background: #c9912c;
+  top: -10rpx;
+  right: 10rpx;
+}
+.sh-userinfo-box .user-head .info-box .head-img {
+  width: 94rpx;
+  height: 94rpx;
+  border-radius: 50%;
+  background: #ccc;
+  margin-right: 25rpx;
+  overflow: hidden;
+}
+.sh-userinfo-box .user-head .info-box .user-name {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #fff;
+  line-height: 30rpx;
+  width: 180rpx;
+}
+.sh-userinfo-box .user-head .tag-box {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 22rpx;
+  margin-left: 10rpx;
+}
+.sh-userinfo-box .user-head .tag-box .tag-img {
+  width: 40rpx;
+  height: 40rpx;
+  display: inline-block;
+  border-radius: 50%;
+}
+.sh-userinfo-box .user-head .tag-box .tag-title {
+  font-size: 20rpx;
+  font-weight: 500;
+  color: white;
+  line-height: 40rpx;
+  padding: 0 10rpx;
+}
+.sh-userinfo-box .user-head .code-btn {
+  padding: 30rpx;
+}
+.sh-userinfo-box .user-head .code-btn .iconqrcode {
+  font-size: 50rpx;
+  color: #fff;
+}
+.sh-userinfo-box .wallet {
+  font-size: 20rpx;
+  padding-left: 140rpx;
+}
+.sh-userinfo-box .wallet .money {
+  margin-right: 40rpx;
+}
+.notice-box {
+  width: 750rpx;
+  height: 70rpx;
+  background: #fdefd8;
+  padding: 0 35rpx;
+}
+.notice-box .notice-detail {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #cc953b;
+}
+.notice-box .bindPhone {
+  width: 135rpx;
+  line-height: 52rpx;
+  background: -webkit-linear-gradient(left, #e9b461, #eecc89);
+  background: linear-gradient(90deg, #e9b461, #eecc89);
+  border-radius: 26rpx;
+  padding: 0;
+  font-size: 26rpx;
+  font-weight: 500;
+  color: white;
+}
+

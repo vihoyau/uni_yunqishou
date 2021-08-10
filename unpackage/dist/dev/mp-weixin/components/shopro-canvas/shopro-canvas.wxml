@@ -1,0 +1,1 @@
+<view class="invite-poster-content"><canvas class="hideCanvas" style="{{'width:'+((poster.width||1)+'px')+';'+('height:'+((poster.height||1)+'px')+';')}}" canvas-id="self_canvas"></canvas></view>

@@ -1,0 +1,1 @@
+<shopro-empty vue-id="7dfdfd9b-1" image="{{$IMG_URL+'/imgs/empty/template_empty.png'}}" tipText="404,页面走丢了~" btnText="去首页逛逛" data-event-opts="{{[['^click',[['e0']]]]}}" bind:click="__e" bind:__l="__l"></shopro-empty>

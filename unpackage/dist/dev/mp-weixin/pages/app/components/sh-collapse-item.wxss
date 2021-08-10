@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.sh-collapse-box {
+  background-color: #fff;
+}
+.sh-collapse-box .collapse-head {
+  padding: 0rpx 28rpx;
+  height: 132rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.sh-collapse-box .collapse-head .head-img {
+  width: 66rpx;
+  height: 66rpx;
+  border-radius: 50%;
+  margin-right: 45rpx;
+}
+.sh-collapse-box .collapse-head .arrow-btn {
+  background: none;
+  padding: 0;
+  color: #c4c4c4;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+.sh-collapse-box .collapse-head .arrow-active {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+.sh-collapse-box .collapse-head .head-info .head-time,
+.sh-collapse-box .collapse-head .head-info .child-num {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.sh-collapse-box .collapse-head .head-info .name-box {
+  margin-bottom: 12rpx;
+}
+.sh-collapse-box .collapse-head .head-info .name-box .name-text {
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #111111;
+}
+.sh-collapse-box .collapse-head .head-info .name-box .tag-box {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 21rpx;
+  line-height: 30rpx;
+  padding: 5rpx 10rpx;
+  margin-left: 10rpx;
+}
+.sh-collapse-box .collapse-head .head-info .name-box .tag-box .tag-img {
+  width: 34rpx;
+  height: 34rpx;
+  margin-right: 6rpx;
+  border-radius: 50%;
+}
+.sh-collapse-box .collapse-head .head-info .name-box .tag-box .tag-title {
+  font-size: 18rpx;
+  font-weight: 500;
+  color: white;
+  line-height: 20rpx;
+}
+

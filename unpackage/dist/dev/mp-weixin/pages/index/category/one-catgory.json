@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

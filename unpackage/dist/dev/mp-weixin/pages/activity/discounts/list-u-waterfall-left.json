@@ -1,0 +1,15 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list-u-waterfall-left": "/pages/activity/discounts/list-u-waterfall-left",
+    "list-u-waterfall-right": "/pages/activity/discounts/list-u-waterfall-right",
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-count-down": "/uview-ui/components/u-count-down/u-count-down",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "shopro-goods-card": "/components/shopro-goods-card/shopro-goods-card",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal"
+  }
+}

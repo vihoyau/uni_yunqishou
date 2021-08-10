@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "优惠券中心",
+  "usingComponents": {
+    "shopro-coupon": "/components/shopro-coupon/shopro-coupon",
+    "shopro-empty": "/components/shopro-empty/shopro-empty",
+    "shopro-auth-modal": "/components/shopro-auth-modal/shopro-auth-modal"
+  }
+}

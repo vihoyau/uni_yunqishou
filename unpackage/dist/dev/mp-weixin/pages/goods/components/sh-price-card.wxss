@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.normal-price-box {
+  padding: 20rpx;
+  background: url("http://file.shopro.top/imgs/detail/detail_price_normal_bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.normal-price-box .unit,
+.normal-price-box .notice {
+  font-size: 24rpx;
+  color: #fff;
+}
+.normal-price-box .price {
+  font-size: 36rpx;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 10rpx;
+}
+.normal-price-box .price-bottom-box {
+  font-size: 24rpx;
+  color: #fff;
+  font-weight: 500;
+  padding-top: 10rpx;
+}
+.normal-price-box .price-bottom-box .original-price {
+  text-decoration: line-through;
+}
+.normal-price-box .price-bottom-box .line {
+  margin: 0 20rpx;
+  display: inline-block;
+  width: 3rpx;
+  height: 24rpx;
+  background-color: #fff;
+}
+.groupon-price-box {
+  padding: 20rpx;
+  background: url("http://file.shopro.top/imgs/detail/detail_group_price_bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.groupon-price-box .unit,
+.groupon-price-box .notice {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.9);
+}
+.groupon-price-box .notice {
+  line-height: 40rpx;
+  border: 1rpx solid white;
+  border-radius: 6rpx;
+  padding: 0 10rpx;
+}
+.groupon-price-box .price {
+  font-size: 36rpx;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  margin: 0 10rpx;
+}
+.groupon-price-box .price-bottom-box {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  padding-top: 10rpx;
+}
+.groupon-price-box .price-bottom-box .line {
+  margin: 0 20rpx;
+  display: inline-block;
+  width: 3rpx;
+  height: 24rpx;
+  background-color: #fff;
+}
+.groupon-price-box .price-bottom-box .count-down {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.9);
+}
+.score-price-card {
+  padding: 20rpx;
+  background: url("http://file.shopro.top/imgs/detail/detail_price_score_bg.png") no-repeat;
+  background-size: 100% 100%;
+  width: 750rpx;
+}
+.score-price-card .notice {
+  font-size: 24rpx;
+  color: #fff;
+}
+.score-price-card .score-img {
+  width: 36rpx;
+  height: 36rpx;
+}
+.score-price-card .price {
+  font-size: 36rpx;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 10rpx;
+}
+.score-price-card .price-bottom-box {
+  font-size: 24rpx;
+  color: #fff;
+  font-weight: 500;
+  padding-top: 10rpx;
+}
+.score-price-card .price-bottom-box .original-price {
+  text-decoration: line-through;
+}
+.score-price-card .price-bottom-box .line {
+  margin: 0 20rpx;
+  display: inline-block;
+  width: 3rpx;
+  height: 24rpx;
+  background-color: #fff;
+}
+.seckill-bg {
+  background: url("http://file.shopro.top/imgs/detail/detail_price_seckill_bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.seckilled-bg {
+  background: url("http://file.shopro.top/imgs/detail/detail_price_seckilled_bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.seckill-price-box {
+  padding: 20rpx;
+}
+.seckill-price-box .unit,
+.seckill-price-box .notice,
+.seckill-price-box .count-down {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.9);
+}
+.seckill-price-box .notice {
+  line-height: 40rpx;
+  border: 1rpx solid white;
+  border-radius: 6rpx;
+  padding: 0 10rpx;
+  margin-left: 10rpx;
+}
+.seckill-price-box .price {
+  font-size: 36rpx;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  margin: 0 10rpx;
+}
+.seckill-price-box .price-bottom-box {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  padding-top: 10rpx;
+}
+.seckill-price-box .price-bottom-box .original-price {
+  text-decoration: line-through;
+}
+.seckill-price-box .price-bottom-box .express .progress-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}
+.seckill-price-box .price-bottom-box .line {
+  margin: 0 20rpx;
+  display: inline-block;
+  width: 3rpx;
+  height: 24rpx;
+  background-color: #fff;
+}
+

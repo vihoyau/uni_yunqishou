@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.steps-box {
+  height: 190rpx;
+  padding: 60rpx 0 0;
+  background: #fff;
+}
+.status-box {
+  background-color: #fff;
+  border-radius: 20rpx 20rpx 0px 0px;
+  padding: 20rpx;
+  margin-top: -20rpx;
+}
+.status-box .status-text {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 20rpx;
+}
+.status-box .status-time {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+}
+.status-box .cuIcon-right {
+  color: #999999;
+  font-size: 30rpx;
+}
+.aftersale-money {
+  background-color: #fff;
+  height: 98rpx;
+  padding: 0 20rpx;
+  margin: 20rpx 0;
+}
+.aftersale-money .aftersale-money--title {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.aftersale-money .aftersale-money--num {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #e1212b;
+}
+.order-shop {
+  padding: 20rpx;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.order-shop .order-sku {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+  width: 450rpx;
+  margin-bottom: 20rpx;
+}
+.order-shop .order-sku .order-num {
+  margin-right: 10rpx;
+}
+.order-shop .card-price-box .status-btn {
+  height: 32rpx;
+  border: 1rpx solid #cfa972;
+  border-radius: 15rpx;
+  font-size: 20rpx;
+  font-weight: 400;
+  color: #a8700d;
+  padding: 0 10rpx;
+  margin-left: 20rpx;
+  background: rgba(233, 183, 102, 0.16);
+}
+.order-shop .card-price-box .order-price {
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #333333;
+}
+.aftersale-content {
+  background-color: #fff;
+  padding: 20rpx;
+}
+.aftersale-content .aftersale-item {
+  height: 60rpx;
+}
+.aftersale-content .aftersale-item .copy-btn {
+  background: none;
+  color: #b38436;
+  font-size: 26rpx;
+  padding: 0 20rpx;
+}
+.aftersale-content .aftersale-item .item-tilte {
+  color: #333;
+  font-size: 28rpx;
+}
+.aftersale-content .aftersale-item .item-content {
+  color: #999999;
+  font-size: 28rpx;
+}
+.foot_box {
+  height: 100rpx;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.foot_box .btn {
+  width: 160rpx;
+  line-height: 60rpx;
+  background: #eeeeee;
+  border-radius: 30rpx;
+  padding: 0;
+  margin-right: 20rpx;
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #333333;
+}
+.foot_box .delete-btn {
+  background: #ffeeee;
+  color: #e50808;
+}
+
